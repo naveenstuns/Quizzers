@@ -36,7 +36,7 @@ public class Questions extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.questions);
 
         for (int i = 0; i < ques.length; i++) {
             ques[i] = i;
